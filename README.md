@@ -13,7 +13,7 @@ Front End :
 * AngularJS
 * jQuery ( Bootstrap dependency )
 
-Backend :
+Back End :
 
 * JavaScript
 * Node.js
