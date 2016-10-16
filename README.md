@@ -65,13 +65,13 @@ After its downloaded extract files from an archive into a folder.
 
 First open a cmd window in a project folder location (the one that have package.json file ).
 
-1. To start Node.js server, run:
+To start Node.js server, run:
 
 ```
 npm start
 ```
 
-2. To access the local server, enter the following URL into your web browser:
+To access the local server, enter the following URL into your web browser:
 
 ```
 http://localhost:8080/
