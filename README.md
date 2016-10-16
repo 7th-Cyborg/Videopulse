@@ -64,6 +64,7 @@ After its downloaded extract files from an archive into a folder.
 ## Running Application
 
 First open a cmd window in a project folder location (the one that have package.json file ).
+
 1. To start Node.js server, run:
 
 ```
