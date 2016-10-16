@@ -1,0 +1,35 @@
+<!doctype html>
+<!-- Define module for Angularjs -->
+<html lang="en" ng-app="MobileWebApp">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+	<title>Video Pulse</title>
+
+	<!-- Loading CSS -->
+	<link rel="stylesheet" href="assets/libs/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/styles.css">
+	<!-- Loading JavaScript libraries -->
+	<script src="assets/libs/jquery-3.1.1/jquery-3.1.1.min.js"></script>
+	<script src="assets/libs/angular-1.5.8/angular.min.js"></script>
+	<script src="assets/libs/angular-1.5.8/angular-route.min.js"></script>
+	<script src="assets/libs/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	<!-- Loading Angularjs App -->
+	<script src="app/app.module.js"></script>
+	<script src="app/app.routes.js"></script>
+	<script src="app/shared/services/videoDataService.js"></script>
+	<script src="app/components/home/homeController.js"></script>
+	<script src="app/components/videoPlayer/videoPlayerController.js"></script>
+</head>
+
+<body>
+	<!-- Angularjs entry point -->
+	<div id="wrapper" ng-view></div>
+</body>
+
+</html>

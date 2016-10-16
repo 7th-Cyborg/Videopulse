@@ -1,0 +1,83 @@
+<header>
+	<div id="header-btn">
+		<a href="/#/" class="btn btn-amber">
+			<span class="glyphicon glyphicon-menu-left"></span> Back
+		</a>
+	</div>
+</header>
+
+<div id="container" class="container-fluid">
+
+	<!-- Video -->
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="embed-responsive embed-responsive-16by9">
+				<video ng-src="{{videoUrl}}" controls>
+					Your browser does not support the video tag.
+				</video>
+			</div>
+		</div>
+	</div>
+
+	<!-- Video Title -->
+	<div class="row">
+		<div class="col-xs-12">
+			<h2 class="video-title">{{video.title}}</h2>
+		</div>
+	</div>
+
+	<!-- Video Statistics -->
+	<div class="row video-statistics">
+		<div class="col-xs-12 col-md-10">
+			<ul class="list-inline">
+				<li><span class="glyphicon glyphicon-user" aria-hidden="true"></span> {{video.user}}</li>
+				<li><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> Views {{video.views | number}}</li>
+				<li><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Published {{video.postDate}}</li>
+			</ul>
+		</div>
+		<div class="col-xs-12 col-md-2">
+			<!-- Button trigger User Info -->
+			<button type="button" class="btn btn-amber btn-lg" data-toggle="modal" data-target="#myModal">User Info</button>
+		</div>
+	</div>
+	
+	<!-- Video Description -->
+	<div class="row">
+		<div class="col-xs-12">
+			<dl class="video-description">
+				<dt>Description</dt>
+				<dd>{{video.description}}</dd>
+			</dl>
+		</div>
+	</div>
+
+	<!-- User Info Modal Form -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">User info</h4>
+				</div>
+				<div class="modal-body">
+					<dl class="video-description">
+						<dt>Name</dt>
+						<dd>{{video.user}}</dd>
+						<dt>Country</dt>
+						<dd>{{video.userCountry}}</dd>
+						<dt>Joined</dt>
+						<dd>{{video.joined}}</dd>
+						<dt>Subscribers</dt>
+						<dd>{{video.subscribers | number}}</dd>
+						<dt>Description</dt>
+						<dd>{{video.userDescription}}</dd>
+					</dl>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div><!-- End Container -->

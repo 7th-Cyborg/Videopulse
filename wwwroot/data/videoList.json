@@ -1,0 +1,82 @@
+[
+    {
+        "videoId" : 1,
+        "title": "Best Catches in Football History",
+        "user": "Lori Boardman",
+        "views": 590222,
+        "postDate": "3 weeks ago",
+        "thumbnailName":"video1_thumbnail.jpg"
+    },
+    {
+        "videoId" : 2,
+        "title": "Formula One - Secret Life",
+        "user": "Mark Castillo",
+        "views": 148382,
+        "postDate": "8 months ago",
+        "thumbnailName":"video2_thumbnail.jpg"
+    },
+    {
+        "videoId" : 3,
+        "title": "Top 10 Best Video Games of 2016",
+        "user": "Kenneth C. McCart",
+        "views": 590222,
+        "postDate": "3 weeks ago",
+        "thumbnailName":"video3_thumbnail.jpg"
+    },
+    {
+        "videoId" : 4,
+        "title": "The $400 Budget Gaming PC Build",
+        "user": "Beatrice Sams",
+        "views": 436404,
+        "postDate": "2 days ago",
+        "thumbnailName":"video4_thumbnail.jpg"
+    },
+    {
+        "videoId" : 5,
+        "title": "Great Value Gaming PC",
+        "user": "Frank Lopez",
+        "views": 48967,
+        "postDate": "1 year ago",
+        "thumbnailName":"video5_thumbnail.jpg"
+    },
+    {
+        "videoId" : 6,
+        "title": "How Good Is A Console Price PC?!",
+        "user": "Antonio Smith",
+        "views": 257547,
+        "postDate": "1 month ago",
+        "thumbnailName":"video6_thumbnail.jpg"
+    },
+    {
+        "videoId" : 7,
+        "title": "Best smartphones: Summer 2016",
+        "user": "James Knowles",
+        "views": 643596,
+        "postDate": "2 weeks ago",
+        "thumbnailName":"video7_thumbnail.jpg"
+    },
+    {
+        "videoId" : 8,
+        "title": "Top 5 Affordable Gaming PCs",
+        "user": "Maurine Jones",
+        "views": 470791,
+        "postDate": "2 years ago",
+        "thumbnailName":"video8_thumbnail.jpg"
+    },
+    {
+        "videoId" : 9,
+        "title": "Top 10 Comedy Movies",
+        "user": "Anthony Ferris",
+        "views": 335472,
+        "postDate": "1 week ago",
+        "thumbnailName":"video9_thumbnail.jpg"
+    },
+    {
+        "videoId" : 10,
+        "title": "Best Crossovers in Basketball History",
+        "user": "Rex Banks",
+        "views": 279000,
+        "postDate": "2 days ago",
+        "thumbnailName":"video10_thumbnail.jpg"
+    }
+]

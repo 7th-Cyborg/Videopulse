@@ -1,0 +1,19 @@
+<header>
+	<div id="header-logo">
+		<img src="/assets/img/logo.png" alt="logo">
+	</div>
+</header>
+<div id="container" class="container-fluid">
+	<div class="row">
+		<div class="col-sm-6 col-md-3" ng-repeat="video in videoList">
+			<a ng-href="#/video/{{video.videoId}}" class="thumbnail">
+				<img src="/data/{{video.thumbnailName}}" class="img-responsive" alt="Video thumbnail">
+			</a>
+			<div class="videoInfo caption">
+				<h3 class="videoInfo-title"><a ng-href="#/video/{{video.videoId}}">{{video.title}}</a></h3>
+				<div class="videoInfo-user">{{video.user}}</div>
+				<div class="videoInfo-stats">{{video.views | number}} views</div>
+			</div>
+		</div>
+	</div>
+</div>
