@@ -13,10 +13,12 @@ var server = app.listen(process.env.PORT || 8080, function () {
 });
 
 
-
-/*app.get('/', function(req, res) {
+/*	"/"
+ *	GET: return root index.html
+ */
+app.get('/', function(req, res) {
   res.render('/wwwroot/index.html');
-});*/
+});
 
 /*	"/api/videos"
  *	GET: return all videos
